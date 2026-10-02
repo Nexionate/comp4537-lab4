@@ -1,5 +1,7 @@
-function getDate() {
-    return new Date().toString();
+class DateUtils {
+    static getDate() {
+        return new Date().toString();
+    }
 }
 
-module.exports = { getDate };
+module.exports = DateUtils;
